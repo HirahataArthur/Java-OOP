@@ -26,6 +26,7 @@ public class Student{
     public static void main() {
         Student s1 = new Student("Arthur", 19);
         s1.defineName("Maria");
+            s1.defineAge(20);
     }
 
 }
