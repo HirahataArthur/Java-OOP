@@ -17,7 +17,7 @@ The goal of this repository is to consolidate core object-oriented principles th
 * **Encapsulation:** Access modifiers (`private`, `protected`, `public`), getters, and setters
 * **Inheritance:** Class hierarchies, `super` keyword, and code reusability
 * **Polymorphism:** Method overloading and method overriding (`@Override`)
-* **Abstraction:** Abstract classes and interfaces
+* **Abstraction:** Abstract classes_objects and interfaces
 
 ---
 
