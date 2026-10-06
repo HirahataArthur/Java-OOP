@@ -1,3 +1,5 @@
+package abstractclasses;
+
 // Abstract base class for animals.
 abstract class Animal {
     // Abstract method: each concrete animal must provide its own sound.
@@ -27,18 +29,18 @@ class Cat extends Animal {
 
 public class Main {
     public static void main(String[] args) {
-        // Polymorphism: Animal references point to different concrete animal objects.
+        // Polymorphism: abstractclasses.Animal references point to different concrete animal objects.
         Animal myDog = new Dog();
         Animal myCat = new Cat();
 
-        // The overridden method is selected for the actual Dog object.
+        // The overridden method is selected for the actual abstractclasses.Dog object.
         myDog.makeSound();
-        // This concrete method is inherited from Animal.
+        // This concrete method is inherited from abstractclasses.Animal.
         myDog.sleep();
 
-        // The overridden method is selected for the actual Cat object.
+        // The overridden method is selected for the actual abstractclasses.Cat object.
         myCat.makeSound();
-        // This concrete method is inherited from Animal.
+        // This concrete method is inherited from abstractclasses.Animal.
         myCat.sleep();
     }
 }
