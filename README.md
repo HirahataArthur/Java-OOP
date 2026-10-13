@@ -18,6 +18,7 @@ The goal of this repository is to consolidate core object-oriented principles th
 * **Inheritance:** Class hierarchies, `super` keyword, and code reusability
 * **Polymorphism:** Method overloading and method overriding (`@Override`)
 * **Abstraction:** Abstract classes_objects and interfaces
+* **Functional Interfaces:** Lambda expressions, method references, and the `Predicate`, `Function`, `Consumer`, and `Supplier` interfaces
 
 ---
 
