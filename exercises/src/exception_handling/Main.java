@@ -22,5 +22,13 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+
+        // Creating a Person with an unassigned SSN range throws ErrorIdFormat.
+        try {
+            Person person = new Person("Alex", "000-12-3456");
+            System.out.println(person.getName() + ": " + person.getId());
+        } catch (ErrorIdFormat e) {
+            System.out.println("Could not create person: " + e.getMessage());
+        }
     }
 }
