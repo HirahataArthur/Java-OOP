@@ -29,7 +29,7 @@ class Person {
         return id;
     }
 
-    
+
     public boolean updateID(String id) throws ErrorIdFormat {
         // Do not change the stored ID unless validation succeeds.
         idCheck(id);
