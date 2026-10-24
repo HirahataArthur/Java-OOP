@@ -3,7 +3,7 @@ package threads;
 public class ExampleThread {
 
     public static void main(String[] args) {
-        System.out.println("1. [Main] The main program has started.");
+        System.out.println("1. [Conection] The main program has started.");
 
         // Create a background task (a separate thread)
         Runnable backgroundTask = new Runnable() {
@@ -25,7 +25,7 @@ public class ExampleThread {
         Thread newThread = new Thread(backgroundTask);
         newThread.start(); // .start() launches parallel execution!
         // The main program continues immediately without waiting for the download to finish
-        System.out.println("2. [Main] The main program continues doing other things...");
-        System.out.println("3. [Main] The user can keep clicking on the application screen!");
+        System.out.println("2. [Conection] The main program continues doing other things...");
+        System.out.println("3. [Conection] The user can keep clicking on the application screen!");
     }
 }
